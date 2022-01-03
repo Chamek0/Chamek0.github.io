@@ -1,0 +1,122 @@
+html {
+  font-size: 10px; 
+  font-family: 'Open Sans', sans-serif;
+  background-color: #C3C3A6;
+}
+html {
+  
+}
+img {
+  border-radius: 8px;
+  max-width: 200px;
+
+}
+h1 {
+  margin: 0 auto;
+  background-color: #C3C3A6;
+  padding:  0px 0px 0px 50px;
+  color: #FCC138;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+  text-align: left;
+}
+h2 {
+  font-size: 30px;
+}
+p, li, a {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border-bottom: 1px solid #ddd;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  float: left;
+  margin: 15px 15px 15px 0;
+}
+
+.active {
+    background-color: #FCC138;
+    color: white;
+}
+
+#menu, #menu ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:left;
+}
+#menu li{
+display:inline-block;
+position:relative;
+}
+#menu ul li{
+display:inherit;
+border-radius:0;
+}
+#menu ul li:hover{
+border-radius:0;
+}
+
+#menu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu li:hover ul{
+max-height:15em;
+}
+    
+#menu li:hover{
+background:#111 ;
+}
+
+
+/* les a href */
+#menu a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+#menu ul a{
+padding:8px 0;
+}
+#menu li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu li:hover a, #menu li li:hover a{
+color:white;
+}
+ ul {
+    
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu li {
+    border-right: 1px solid #bbb;
+}
+#menu li:last-child {
+    border-right: none;
+}
