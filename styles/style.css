@@ -45,7 +45,6 @@ img {
     background-color: #FCC138;
     color: white;
 }
-
 #menu, #menu ul{
 padding:0;
 margin:0;
@@ -119,4 +118,10 @@ li a {
 }
 #menu li:last-child {
     border-right: none;
+}
+p {
+  text-align: justify;   
+}
+.content {
+  padding: 35px;
 }
