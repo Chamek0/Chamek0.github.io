@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/mickey.jpg">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title>Webtoon list</title>
+  </head>
+  <body>
+    <h1>A</h1> 
+    <ul id="menu">
+  <li class="main-menu"><a href="https://chamek0.github.io">Webtoon</a>
+    <ul>
+      <li><a href="https://chamek0.github.io/web-ss.html">SS</a></li>
+      <li><a href="https://chamek0.github.io/web-s.html">S</a></li>
+      <li><a href="https://chamek0.github.io/web-a.html">A</a></li>
+      <li><a href="https://chamek0.github.io/web-b.html">B</a></li>
+    </ul>
+  </li>
+  <li class="main-menu"><a href="https://chamek0.github.io/anime.html">Anime</a>
+    <ul>
+      <li><a href="https://chamek0.github.io/anime-ss.html">SS</a></li>
+      <li><a href="https://chamek0.github.io/anime-s.html">S</a></li>
+      <li><a href="https://chamek0.github.io/anime-a.html">A</a></li>
+      <li><a href="https://chamek0.github.io/anime-b.html">B</a></li>
+    </ul>
+  </li>
+  <li class="main-menu"><a href="#">3</a>
+    <ul>
+      <li><a href="#">3</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">3</a></li>
+    </ul>
+  </li>
+  <li class="main-menu"><a href="#">4</a>
+    <ul>
+      <li><a href="#">4</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">4</a></li>
+    </ul>
+  </li>
+</ul>
+<div class="content">
+        <a href="https://vostfree.tv/878-jujutsu-kaisen-vostfr-ddl-streaming.html" target="_blank">
+          <img src="images/jujutsu"/> </a>
+        <h2>Jujutsu kaisen</h2>
+        <div class="chapter-item">
+          <a>Ep 24</a>
+          <a>Vu 24</a>
+        </div>
+        <h3>Synopsis</h3>
+        <p> Nous suivons le quotidien de Yuji Itadori, lycéen et membre du club de spiritisme. Il ne croit pas aux fantômes, mais sa force physique hors du commun est un précieux atout pour les missions du groupe… jusqu’à ce que l’une d’elles tourne mal. En avalant une relique pour conjurer un sort, le voilà possédé par Ryomen Sukuna, le célèbre démon à deux visages. Condamné à mort par l’organisation des exorcistes, il doit trouver et ingérer tous les doigts de Sukuna afin d’être libre. Et pour ça, l’adolescent va s’initier à l’art occulte et mystérieux de l’exorcisme.</p>
+    </div>
+    <script src="scripts/main.js"></script> 
+  </body>
+</html>
