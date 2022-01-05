@@ -5,10 +5,12 @@ html {
 }
 img {
   border-radius: 8px;
+  min-width: 200px;
   max-width: 200px;
   display: block;
   float: left;
   margin: 15px 15px 15px 0;
+
 }
 h1 {
   margin: 0 auto;
@@ -110,8 +112,9 @@ p {
 }
 .content {
   margin: 0 auto;
-  padding: 35px;
+  padding: 60px;
   border-bottom: 1px solid #ddd;
+  
 }
 ul {
   position: sticky;
