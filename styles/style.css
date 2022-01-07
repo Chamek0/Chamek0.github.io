@@ -1,37 +1,60 @@
 html {
-  font-size: 10px; 
-  font-family: 'Open Sans', sans-serif;
-  background-color: #7A90A4;
+   font-family: 'Open Sans', sans-serif;
+   /* line-height: 1.15;*/
+    -webkit-text-size-adjust: 100%;
 }
-img {
+body {
+  background-color: #fff;
+}
+p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 2; 
+}
+.img-content img {
   border-radius: 8px;
   min-width: 200px;
   max-width: 200px;
   display: block;
   float: left;
   margin: 15px 15px 15px 0;
+}
+.home img {
+    min-width: 5px;
+}
+.top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    background-color: #82af42;
+    /*box-shadow: 0 0 2px -1px #333;*/
+}
+.navbar {
+    /*display: flex;*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 
 }
-h1 {
+.title {
+  color: #fff;
+  /*text-shadow: 3px 3px 1px black;*/
+}
+.content {
   margin: 0 auto;
-  background-color: #C3C3A6;
-  padding:  0px 0px 0px 50px;
-  color: #FCC138;
-  text-shadow: 3px 3px 1px black;
-  font-size: 60px;
-  text-align: left;
+  padding: 60px;
+  border-bottom: 1px solid #ddd;
 }
-h2 {
-  font-size: 30px;
-}
-li, a {
-  font-size: 16px;
-  line-height: 2;
-}
+
+/*
 .active {
     background-color: #FCC138;
     color: white;
 }
+*/
+
 #menu, #menu ul{
 padding:0;
 margin:0;
@@ -60,17 +83,15 @@ overflow:hidden;
 -moz-transition: .8s all .3s;
 -webkit-transition: .8s all .3s;
 transition: .8s all .3s;
+background-color: #82af42;
 }
 #menu li:hover ul{
 max-height:15em;
 }
     
 #menu li:hover{
-background:#111 ;
+background:#D96F933D ;
 }
-
-
-/* les a href */
 #menu a{
 text-decoration:none;
 display:block;
@@ -82,40 +103,14 @@ font-family:arial;
 padding:8px 0;
 }
 #menu li:hover li a{
-color:#fff;
+color:#white;
 text-transform:inherit;
 }
-#menu li:hover a, #menu li li:hover a{
-color:white;
-}
- ul {
-    background-color: #333;
-}
 
-li a {
+#menu li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-li.main-menu{
-    border-right: 1px solid #bbb;
-}
-#menu li:last-child {
-    border-right: none;
-}
-p {
-  text-align: justify;
-  font-size: 16px;
-  line-height: 2; 
-}
-.content {
-  margin: 0 auto;
-  padding: 60px;
-  border-bottom: 1px solid #ddd;
-  
-}
-ul {
-  position: sticky;
 }
