@@ -123,6 +123,11 @@ background-color: #fff;
 .main-menu img {
     max-width: 13px;
 }
+.index img {
+    max-width: 100px;
+}
+
+
 /*
 .menu a {
  text-transform:inherit;
