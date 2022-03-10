@@ -1,0 +1,117 @@
+
+body {
+	margin: 0px;
+}
+
+#logo {
+  width: 100px;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+  float: left;
+}
+
+header a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+header a:hover {
+  background-color: #111;
+}
+nav {
+  margin-top: 9px;
+  margin-left: 200px;
+}
+nav a {
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+
+
+
+
+.formulaire,.paiement {
+  display: none;
+}
+
+
+
+.fournisseur {
+  width: 300px;
+ float: left;
+ margin-left:  40% ;
+ margin-top: auto;
+}
+.formulaire {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 0px;
+}
+.paiement {
+   width: 300px;
+ 
+  margin-right: auto ;
+  margin-left: auto;
+   margin-top: 40px;
+}
+
+fieldset {
+padding: 10px 20px 10px 20px;
+border-color: red;
+border-radius: 10px;
+}
+legend {
+  font-size: 18px ;
+  color: red;
+  background-color: #FFE9E9;
+  border-radius: 8px;
+  padding: 4px 6px 4px 6px;
+  box-shadow: 1px 1px 2px #A2A79A;
+}
+
+
+input:not(input[type=radio]) {
+  border-color: red;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px #A2A79A;
+}
+input[type=text], input[type=month], input[type=password]{
+  width: 92%;
+}
+
+input[type=button],input[type=reset]{
+  width: 46%;
+}
+select {
+  width: 98%;
+  border-color: red;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px #A2A79A;
+  background-color: #FFE9E9;
+}
+input[type=text] {
+  background-color: #FFE9E9;
+}
+input[type=text]:active {
+  background-color: #fff;
+}
+@media screen and (max-width: 600px) {
+.formulaire,.fournisseur,select, .paiement,input[type=text],
+input[type=month],input[type=password]{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
