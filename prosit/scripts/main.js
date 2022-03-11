@@ -15,17 +15,3 @@
     $("#page1").hide();
     $("#page2").hide();
 })
-
-/*
-function asd(a)
-{
-    if (document.getElementById("page1").style.display=="block") 
-    document.getElementById("page2").style.display="block"
-   
-    
-}
-
-if(a==1)
-    document.getElementById("page1").style.display="none";
-    else
-    document.getElementById("page2").style.display="none";*/
